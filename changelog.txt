@@ -1,0 +1,94 @@
+Date: March 27, 2018
+
+In this week, I have created the first page of my web app which will display the levels in the forms of buttons.
+I also have collected some of the images required for my app and have included the license details.
+In addition to this, I have made the directory structure of my project ready.
+Furthermore, I have downloaded and included the font that I will be using.
+I have achieved all of the milestones I wanted to achieve so far except for the fact that I wanted to collect more game images.
+
+
+Date: April 15, 2018
+
+So far, the data required for Shallow level has been collected and proper license has been included.
+Furthermore, button for selecting each level has been created.
+Once the level button is clicked, the categories in it can be viewed in form of button.
+In addition to this, for Shallow category the basic UI for each category has been designed using table.
+I believe I have obtained my target outcome to some extent; however, I still have to improve the UI significantly.
+
+Date: April 19, 2018
+
+The use of table has been now replaced by divisions.
+Food Chain category is now having images which are clickable; but, the actual logic of increasing the score and making the image pair unhidden once a pair is matched is still not working correctly.
+It was frustrating to get the logic working. I have tried to trace the error in my logic by making use of the console outputs. I am positive about resolving this issue very soon.
+
+Date: April 22, 2018
+
+The logic of increasing score and making the images unhidden once the correct pair is clicked in sequence has been successfully implemented for Food Chain category in Shallow Level.
+Though late and with tremendous effort, I have got the game logic working now. This basically means I will be able to build on this logic now onwards.
+
+Date: April 26, 2018
+
+The Food Chain category is working completely as per plan. The idea has now been extended to Professional Tools category in the same level.
+Separate java script file is created for each categories and levels.
+The data is now stored in separate directory.
+I have achieved the target outcome at this point. However, I am a little worried about having enough time to add extra features like animations and sounds to my game.
+
+Date: April 29, 2018
+
+All the image data required for Flag category has been created and stored along with corresponding licensing details.
+The game logic has been implemented to these images and now Flag category is also working.
+I was actually planning to have finished one level by today; but, it looks like I did not plan out my categories very well. Doing the planning now is consuming some of my time.
+
+Date: May 02, 2018
+
+All the three categories under Shallow level is now working fine. Separate screen to be appeared once the target score in a category is achieved has been created along with some animations.
+As of now, the game has one complete level.
+Although a little late, I have achieve my target. I will have to pace up my development now to be able to incorporate all the features that I want in my app.
+
+Date: May 04, 2018
+
+Images for all the three category of Deep level has been collected and the corresponding license.txt file and data directory has been updated.
+I believe I am doing alright here. Things could have been more paced up had I collected all the data at the beginning of the development.
+
+Date: May 07, 2018
+
+The game logic has been extended to all the three categories of the Deep level. Now, the game has two complete levels.
+I am on track now. I have completed two levels and hopefully will complete another one very soon.
+
+Date: May 09, 2018
+
+The image data for all the three categories of the Profound level has been collected and corresponding data file and license file has been updated.
+Deciding the categories and images took longer than I had expected. This means I will have to increase the development pace for this level.
+
+Date: May 11, 2018
+
+The game logic has been extended to all the three categories of the Profound level. Now, the game has three complete levels.
+Feels good to have completed all the three categories. However, I still have to improve my styles and codes. Also, I want to add some more features.
+
+Date: May 13, 2018
+
+All the categories in all three levels of the game are now provided with an exit option.
+A separate menu has been created for each category in all levels which also includes option for information about the category being played.
+I have now started adding the extra features, making my app more dynamic. I am also working on improving the styles.
+
+Date: May 14, 2018
+
+The game now has improved UI which adjusts according to device orientation and size.
+The styles have been updated to adjust dynamically. This was very crucial milestone that I wanted to achieve.
+
+Date: May 15, 2018
+
+Setting and about us pages have been added to the game now.
+My game now has a professional feel to it with these added new features.
+
+Date: May 16, 2018
+
+The game code is now improved with proper comments and audio has been added in the game.
+I believe most of the milestones has been achieved in my app. I now have a complete game for children.
+And, surprisingly, I have been able to add one more level named as math with three more categories under it.
+
+Date: May 17, 2018
+
+I have recorded my video and improved the resolution.
+I have also updated my readme.txt file.
+I am now ready to submit my work for evaluation.

@@ -1,0 +1,236 @@
+body {
+  background-color: rgb(170, 168, 57);
+  border: 2px Solid rgb(23, 22, 0);
+  border-radius: 15px 50px;
+  padding: 10px;
+  margin: 10px;
+  padding-top: 15px;
+}
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+h3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 15px;
+}
+
+.bigButton {
+  width: 200px;
+  height: 38px;
+  background-color: rgb(244, 242, 146);
+  border: 2px Solid rgb(23, 22, 0);
+  border-radius: 25px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+
+.smallButton {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(170, 168, 57);
+  border: 1px Solid rgb(23, 22, 0);
+  border-radius: 15px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('fonts/DancingScript-Regular.ttf') format('ttf');
+}
+img.bgImg1{
+  height: 150px;
+  width: 150px;
+}
+.settingBlock{
+  padding-top: 50px;
+}
+
+
+
+@media only screen and (max-height:420px){
+
+  .gameImage{
+      height: 15%;
+      width: 80%;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+
+  h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .bigButton {
+    width: 200px;
+    height: 18px;
+    background-color: rgb(244, 242, 146);
+    border: 2px Solid rgb(23, 22, 0);
+    border-radius: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 10px;
+  }
+
+  .smallButton {
+    width: 100px;
+    height: 15px;
+    background-color: rgb(170, 168, 57);
+    border: 1px Solid rgb(23, 22, 0);
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 10px;
+  }
+
+  img.bgImg1{
+    height: 80px;
+    width: 150px;
+  }
+  .hitDivision{
+    float: left;
+    margin: 2px 15px;
+    width: 45%;
+    font-size: 10px;
+  }
+  .scoreDiv{
+    float: left;
+    margin: 2px 15px;
+    width: 45%;
+    font-size: 10px;
+  }
+
+  .buttonDivision{
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  body {
+    background-color: rgb(170, 168, 57);
+    border: 2px Solid rgb(23, 22, 0);
+    border-radius: 15px 50px;
+    padding: 5px;
+    margin: 5px;
+    padding-top: 5px;
+  }
+  .infoBlock{
+    background-color: rgb(170, 168, 57);
+    border: 2px Solid rgb(23, 22, 0);
+    border-radius: 15px 50px;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-height:420px){
+  .gameImage{
+      height: 17%;
+      width: 80%;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+
+  h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .bigButton {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(244, 242, 146);
+    border: 2px Solid rgb(23, 22, 0);
+    border-radius: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+  }
+
+  .smallButton {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(170, 168, 57);
+    border: 1px Solid rgb(23, 22, 0);
+    border-radius: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 10px;
+  }
+  .infoBlock{
+    background-color: rgb(170, 168, 57);
+    border: 2px Solid rgb(23, 22, 0);
+    border-radius: 15px 50px;
+    margin: 10px;
+    padding-top: 70px;
+    font-size: 15px;
+  }
+
+  .hitDivision{
+    float: left;
+    margin: 5px 15px;
+  }
+  .scoreDiv{
+    float: left;
+    margin: 5px 15px;
+  }
+
+  .buttonDivision{
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  .infoBlock{
+    background-color: rgb(170, 168, 57);
+    border: 2px Solid rgb(23, 22, 0);
+    border-radius: 15px 50px;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+.imageDiv1{
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+}
+.imageDiv2{
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+}
+.imageDiv3{
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+
+@keyframes complete {
+    from {background-color: rgb(244, 242, 146);}
+    to {background-color: rgb(170, 168, 57);}
+}
+@keyframes sizeChange {
+    from {font-size: 1.5em;}
+    to {font-size: 2em;}
+}
+.changeSize{
+  animation-name: sizeChange;
+  animation-duration: 1s;
+}
+.completed{
+  animation-name: complete;
+  animation-duration: 3s;
+}
